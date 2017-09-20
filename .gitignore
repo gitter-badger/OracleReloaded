@@ -1,1 +1,8 @@
+# virtual environment stuff (python)
 orvenv
+
+# MacOS stuff
+.DS_Store
+
+# IDE stuff
+.idea

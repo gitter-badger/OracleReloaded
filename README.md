@@ -3,7 +3,7 @@
 
 Authors:
 
-- Luis Serazo :moneybag:
+- Luis Francisco Serazo :moneybag:
 
 - [Antony Manokhin](http://antcny.com)
 

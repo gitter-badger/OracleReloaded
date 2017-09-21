@@ -5,7 +5,7 @@ Authors:
 
 - Luis Francisco Serazo :moneybag:
 
-- [Antony Manokhin](http://antcny.com)
+- [Antony Manokhin](http://antcny.com) :moneybag:
 
 ## Branches
    - a) Master

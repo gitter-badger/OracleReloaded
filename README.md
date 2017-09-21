@@ -9,7 +9,7 @@ Authors:
 
 ## Branches
    - a) Master
-     	- No product ready code yet. This just has an only README.md
+     	- No product ready code yet. This just has an old README.md
 
    - b) First_Branch
      	- This is a branch that Luis is working on for his stuff. There is no product ready code in here.

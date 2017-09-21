@@ -1,9 +1,9 @@
 # *Oracle Reloaded*
-:moneybag:
+![alt text](Pictures/OR.png)
 
 Authors:
 
-- Luis Serazo
+- Luis Serazo :moneybag:
 
 - [Antony Manokhin](http://antcny.com)
 
@@ -22,7 +22,7 @@ Oracle Reloaded is a high frequency trading bot
 
 ## Current progress in design:
 *General Architecture* :
-![alt text](Progress_Pictures/image1.png)
+![alt text](Pictures/Progress_Pictures/image1.png)
 
 *Trader UML Diagram* :
-![alt text](Progress_Pictures/image2.png)
+![alt text](Pictures/Progress_Pictures/image2.png)

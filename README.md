@@ -1,5 +1,5 @@
 # *Oracle Reloaded*
-![alt text](Pictures/OR.png)
+![alt text](Pictures/OR_small.png)
 
 Authors:
 

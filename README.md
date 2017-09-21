@@ -22,7 +22,7 @@ Oracle Reloaded is a high frequency trading bot
 
 ## Current progress in design:
 *General Architecture* :
-![alt text](https://raw.githubusercontent.com/luserazo/OracleReloaded/first-branch/Progress_Pictures/image1.png)
+![alt text](Progress_Pictures/image1.png)
 
 *Trader UML Diagram* :
-![alt text](https://raw.githubusercontent.com/luserazo/OracleReloaded/first-branch/Progress_Pictures/image2.png)
+![alt text](Progress_Pictures/image2.png)

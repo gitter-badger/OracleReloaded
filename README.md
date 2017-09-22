@@ -1,5 +1,5 @@
 # *Oracle Reloaded*
-![alt text](Pictures/OR_small.png)
+![alt text](pictures/OR_small.png)
 
 Authors:
 
@@ -25,7 +25,7 @@ Uses PostgreSQL for persistance.
 
 ## Current progress in design:
 *General Architecture* :
-![alt text](Pictures/Progress_Pictures/image1.png)
+![alt text](pictures/progress_pictures/image1.png)
 
 *Trader UML Diagram* :
-![alt text](Pictures/Progress_Pictures/image2.png)
+![alt text](pictures/progress_pictures/image2.png)

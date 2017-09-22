@@ -3,13 +3,13 @@
 
 Authors:
 
-- Luis Serazo :moneybag:
+- Luis Francisco Serazo :moneybag:
 
-- [Antony Manokhin](http://antcny.com)
+- [Antony Manokhin](http://antcny.com) :moneybag:
 
 ## Branches
    - a) Master
-     	- No product ready code yet. This just has an old README.md
+     	- No product ready code yet! This just has an old README.md.
 
    - b) First_Branch
      	- This is a branch that Luis is working on for his stuff. There is no product ready code in here.
@@ -19,6 +19,9 @@ Authors:
 	
 ## Descrition:
 Oracle Reloaded is a high frequency trading bot
+
+## Persistance
+Uses PostgreSQL for persistance. 
 
 ## Current progress in design:
 *General Architecture* :

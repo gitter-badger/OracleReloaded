@@ -20,6 +20,9 @@ Authors:
 ## Descrition:
 Oracle Reloaded is a high frequency trading bot
 
+## Persistance
+Uses PostgreSQL for persistance. 
+
 ## Current progress in design:
 *General Architecture* :
 ![alt text](Pictures/Progress_Pictures/image1.png)

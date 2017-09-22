@@ -1,0 +1,21 @@
+#############################
+# yaml file for configuring #
+# Travis CI                 #
+#                           #
+# Author: Luis Serazo       #
+#############################
+
+language: python
+python:
+    - "3.6"
+# don't run as super user
+sudo: false
+# install all the project dependencies
+install:
+    - pip install -r requirements.txt
+# run tests with verbosity and exiting on
+# first error.
+script:
+    - flake8 trader
+    - pytest -vx tests/
+

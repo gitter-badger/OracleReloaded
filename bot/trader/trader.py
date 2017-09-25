@@ -11,21 +11,11 @@ import math
 
 
 class Trader(object):
-
 	'''
 	class Trader
 	'''
 
 	def __init__(self):
-
 		'''
 		args:
 		'''
-
-		self.name = 'bot'
-
-
-
-	def say_hello(self):
-		print ("hello")
-

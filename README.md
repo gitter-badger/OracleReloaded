@@ -1,4 +1,5 @@
 # *Oracle Reloaded*
+[![Build Status](https://travis-ci.org/luserazo/OracleReloaded.svg?branch=first-branch)](https://travis-ci.org/luserazo/OracleReloaded)
 
 ## Branches
    - a) Master

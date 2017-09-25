@@ -17,5 +17,5 @@ install:
 # first error.
 script:
     - flake8 trader
-    - pytest -vx tests/
+#    - pytest tests/
 

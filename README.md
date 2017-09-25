@@ -1,24 +1,19 @@
 # *Oracle Reloaded*
 ![alt text](pictures/OR_small.png)
 
-Authors:
-
+Author:
 - Luis Francisco Serazo :moneybag:
 
-- [Antony Manokhin](http://antcny.com) :moneybag:
 
 ## Branches
    - a) Master
-     	- No product ready code yet! This just has an old README.md.
+     	- No product ready code yet! 
 
    - b) First_Branch
-     	- This is a branch that Luis is working on for his stuff. There is no product ready code in here.
+     	- This is a branch that I will be working on for now. There is no product ready code in here yet. 
 
-   - c) Ant_First_Branch
-     	- This is the first branch for Antony to work on. There is not product ready code in here.
-	
 ## Descrition:
-Oracle Reloaded is a high frequency trading bot
+Oracle Reloaded cryptocurrency trading bot which focuses on an arbitrage strategy. Therefore, executions must be *fast* and seemless. The main component of the bot is the **Trader**. The Trader is responsible for communicating with the various exchanges and scraping data. In order for there to be little error in execution. The Trader is designed to be a Finite State Machine. Therefore it can only be in one of several predetermined states at once. The bot should fail silently and when it does fail, it should no longer execute any more trades. 
 
 ## Persistance
 Uses PostgreSQL for persistance. 

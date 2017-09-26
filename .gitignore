@@ -6,3 +6,5 @@ orvenv
 
 # IDE stuff
 .idea
+*.log
+./pictures/

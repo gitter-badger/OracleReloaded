@@ -3,7 +3,7 @@ FROM alpine:3.1
 # Update
 RUN apk add --update python py-pip
 
-# Install all dependancies
+# Install all dependencies
 RUN pip install -r requirements.txt
 
 EXPOSE # PORT NUMBER

@@ -56,8 +56,33 @@ class Automaton (object):
 
 
 class Delta(object):
-	pass
+	"""
+	Transition function class
+	"""
+	def __init__(self, x, y, condition, reaction):
+		# (state val, state val, Callable[...,bool], Callable[..., None]) -> None
+		"""
+		Arguments:
+		:param x:
+		:param y:
+		:param condition:
+		:param reaction:
+		"""
+		self.x = x
+		self.y = y
+		self.__condition = condition
+		self.__reaction = reaction
 
+	def __repr__(self) -> str:
+		return "Delta({0},{1},{2},{3})".format(repr(self.x), repr(self.y), self.__condition, self.__reaction)
 
+	def __str__(self) -> str:
+		return "{0} :-> {1}".format(self.x, self.y)
+
+	def make_move(self):
+		if self.__reaction is not None:
+			self.__reaction()
+
+		
 class AutomatonException(Exception):
 	pass

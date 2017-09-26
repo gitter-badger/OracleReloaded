@@ -18,4 +18,5 @@ install:
 script:
     - flake8 trader
 #    - pytest tests/
-
+notificatins:
+    email: false

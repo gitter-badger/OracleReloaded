@@ -8,3 +8,4 @@ orvenv
 .idea
 *.log
 ./pictures/
+*~

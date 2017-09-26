@@ -5,14 +5,19 @@ A state machine for the bot
 __author__ = 'Luis Serazo'
 __email__ = 'lserazo.projects@gmail.com'
 
-import typing
 from collections import defaultdict
 import logging
 
 
 class Automaton (object):
-	def __init__(self, states, delta_l, init_state):
 
+	def __init__(self, states, delta_l, init_state):
+		"""
+		Initialize an Automaton
+		:param states: a list containing the states of the machine
+		:param delta_l: a dictionary containing the transition functions
+		:param init_state: the initial state of the machine
+		"""
 		# Error Handling
 		if list(sorted(set(states))) != sorted(states):
 			raise AutomatonException('List Of States contains duplicates. \n{}'.format(states))
@@ -21,13 +26,12 @@ class Automaton (object):
 
 		# Setting the states. 
 		self.__states = states
-
-		# Setting up the current state of the Automaton
+		# Setting up the current state of the Automaton (the initial state)
 		self.__current = init_state
-
 		# Setting the delta_l
 		self.__delta_l = defaultdict(list)
 
+		# creating the transition function list.
 		for delta in delta_l:
 			# All transition functions must be a mapping x :-> y such that x,y are in the states list. 
 			if delta['x'] not in self.__states:

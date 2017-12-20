@@ -15,7 +15,10 @@ class Automaton (object):
 		"""
 		Initialize an Automaton
 		:param states: a list containing the states of the machine
-		:param delta_l: a dictionary containing the transition functions
+		:param delta_l: a list of dictionaries containing the transition functions and conditions.
+		Dictionaries contain the key value pair x:y (source and destination). Can also have 'condition
+		and reaction' keys. These are functions that are executed to check a condition and react to the
+		condition, respectively.
 		:param init_state: the initial state of the machine
 		"""
 		# Error Handling
@@ -83,6 +86,6 @@ class Delta(object):
 		if self.__reaction is not None:
 			self.__reaction()
 
-		
+
 class AutomatonException(Exception):
 	pass

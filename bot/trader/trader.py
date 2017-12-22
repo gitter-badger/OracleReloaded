@@ -7,15 +7,34 @@ behavior of the bot.
 __author__ = 'Luis Serazo'
 __email__ = 'serazo.luis@gmail.com'
 
-import math
+
+from abc import ABCMeta, abstractmethod
 
 
 class Trader(object):
-	'''
-	class Trader
-	'''
 
-	def __init__(self):
-		'''
-		args:
-		'''
+	__metaclass__ = ABCMeta
+
+	@abstractmethod
+	def initialize_trade(self, raw_data):
+		pass
+
+	@abstractmethod
+	def finish_trade(self, trade):
+		pass
+
+	@abstractmethod
+	def alert_admin(self):
+		pass
+
+	@abstractmethod
+	def lookup_ttable(self):
+		pass
+
+	@abstractmethod
+	def make_trade(self, exchg, request):
+		pass
+
+	@abstractmethod
+	def request_exchg_data(self, exchg):
+		pass
